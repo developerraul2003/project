@@ -1,0 +1,106 @@
+.features{
+   h3{
+        width: 384px;
+       height: 32px;
+     font-weight: 600;
+      font-size: 24px;
+    line-height: 40px;
+    color:map-get($colors, "text-2-color" );
+
+     }
+     h4{
+        
+width: 384px;
+height: 72px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color:map-get($colors, "text-2-color" );
+
+     }
+
+    .features1{
+      text-align: center;
+      margin-top: 150px;
+      margin-left: 550px;
+      h3{
+        font-size: 34px;
+      }
+    h4{
+        margin-top: 25px;
+        
+        
+    }
+}
+    
+    .features2{
+@include position (space-around ,center ,wrap);
+margin-top: 50px;
+.features22{
+    @include position (null,flex-start,null);
+    flex-direction: column;
+    padding: 0px;
+     gap: 10px;
+     width: 384px;
+     height: 120px;
+     }
+}
+    .features3{
+        @include position(space-around, flex-start,wrap);
+        flex-direction: row-reverse;
+  .features33{
+    @include position (null,flex-start,null);
+  flex-direction: column;
+  padding: 0px;
+  gap: 10px;
+width: 384px;
+height: 120px;
+margin-top: 100px;
+
+}
+    }
+    .features4{
+        @include position(space-around, flex-start,wrap);
+       .features44{
+        @include position (null,flex-start,null);
+       flex-direction: column;
+       padding: 0px;
+       gap: 10px;
+       width: 384px;
+       height: 144px;
+       margin-top: 100px;
+       }
+        
+        
+    }
+    .features5{
+      
+        flex-direction: row;
+        margin-top: 80px;
+        margin-left: 650px;
+        width: 213px;
+        height: 48px;
+        
+        button{
+             @include position(center ,center,wrap);
+            flex-direction: row;
+            padding: 12px;
+            gap: 4px;
+            width: 213px;
+            height: 48px;
+            background:map-get($colors, "button-color");
+            border: 1px solid map-get($colors, "button-color");
+              }
+
+        span{
+            width: 161px;
+            height: 20px;
+            font-size: 16px;
+            line-height: 20px;
+           color:map-get($colors,  "add-color" );
+            
+        }
+        
+       
+    }
+}

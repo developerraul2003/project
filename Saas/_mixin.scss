@@ -1,0 +1,8 @@
+@mixin position ($uzunlug,$hundurluk,$bukmek){
+    display: flex;
+    justify-content: $uzunlug;
+    align-items: $hundurluk;
+    flex-wrap: $bukmek;
+
+}
+

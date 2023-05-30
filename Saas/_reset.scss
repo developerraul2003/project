@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: #222B45;
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+}
+button{
+    border-radius: 8px;
+    height: 40px;
+    span{
+text-transform: uppercase;      
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+    }
+}

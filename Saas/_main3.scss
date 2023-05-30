@@ -1,0 +1,644 @@
+.main3{
+   background-color: map-get($colors ,  "box-2-color" );
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 944px;
+    @include position (space-around, flex-start,wrap);    
+    .main3-text{
+          position: relative;
+          top: 120px;
+     
+        .main3-text1{
+            width: 696px;
+            height: 40px;
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 40px;
+            color:map-get($colors,"text-2-color" );
+            
+            .main3-text2{
+                width: 488px;
+                height: 48px;
+               font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color:map-get($colors,"text-2-color" );
+                
+            }
+        }
+    
+    }
+        .main3-button1{
+        @include position (center,center,wrap);
+        background-color: map-get($colors,  "button-color" );
+        border: 1px solid map-get($colors,  "button-color" );
+        position: relative;
+        top: 120px;
+           padding: 0px;
+           width: 199px;
+          height: 48px;
+
+          span{
+             width: 127px;
+              height: 20px;
+             text-transform: uppercase;
+            color: map-get($colors , "add-color");
+          }
+       }
+       
+       
+       
+  .poster{
+@include position(flex-start, center, wrap);
+ gap:16px;
+margin-left: 158px;
+        
+.facebook{ 
+  width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+
+@include position(null,null,null);
+
+
+   }
+          .face{
+                  width: 48px;
+                  height: 48px;
+                  border-radius: 24px;
+                  background-color:map-get($colors , "circle6" );
+                  margin-top: 16px;
+                  margin-left: 16px;
+                    }
+   }
+   
+    img{
+        margin-top: 15px;
+        margin-left: 18px;
+    }
+    .book h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .book h3{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+
+
+    .Twitter{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Twitter1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "2ci" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Twitter2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Twitter2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .Instagram{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Instagram1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "3cu" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Instagram h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Instagram h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .Linkedin{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Linkedin1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "2ci" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Linkedin2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Linkedin2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .Pinterest{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Pinterest1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "5ci" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Pinterest2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Pinterest2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .Google{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Google1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "6ci" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Google2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Google2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .Telegram{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Telegram1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "7ci" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Telegram2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Telegram2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .Reddit{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Reddit1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "8ci" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Reddit2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Reddit2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .Tumblr{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Tumblr1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "9c" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 12px;
+        margin-left: 15px;
+    }
+    }
+    .Tumblr2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Tumblr2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .Medium{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Medium1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "10c" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Medium2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Medium2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .VK{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .VK1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "11c" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .VK2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .VK2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .Okru{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Okru1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "14c" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Okru2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Okru2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+    .Wordpress{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Wordpress1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "12c" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Wordpress2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Wordpress2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+       
+    .Plurk{
+      width: 280px;
+  height: 112px;
+ border-radius: 16px;
+ background-color: map-get($colors, "add-color" );
+@include position(null,null,null);
+
+    }
+    .Plurk1{
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      background-color:map-get($colors , "13c" );
+      margin-top: 16px;
+      margin-left: 16px;
+
+      img{
+        margin-top: 14px;
+        margin-left: 12px;
+    }
+    }
+    .Plurk2 h2{
+      font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 16px;
+        margin-top: 16px;
+        color:  map-get($colors, "text-2-color");
+        
+    }
+    .Plurk2 h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    color:  map-get($colors, "text-2-color");
+   
+    
+    }
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       

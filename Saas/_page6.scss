@@ -1,0 +1,145 @@
+.page6{
+    width: 100%;
+    height: 512px;
+   
+
+    .create{
+        @include position (space-between, flex-start,wrap);
+        
+        h1{
+            width: 544px;
+            height: 40px;
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 40px;
+            text-align: center;
+            color:map-get($colors, "text-2-color");
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+       .arrow1{
+        margin-top: 50px;
+        margin-right: 100px;
+       }
+        a{
+            width: 95px;
+            height: 24px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: map-get($colors,  "arrow" );
+            
+          
+        }
+        i{
+            margin-left: 10px;
+            color: map-get($colors,  "arrow" );
+        }
+    }
+
+    .media{
+        
+        @include position (space-between ,center , wrap);
+       
+         .media1{
+            margin-top: 36px;
+            width: 384px;
+            height: 416px;
+            background: map-get($colors,  "add-color" );
+            box-shadow: 0px 16px 32px rgba(118, 127, 154, 0.08);
+            border-radius: 8px;
+           margin-left: 150px;
+            img{
+              margin-left: 10px;
+               margin-top: 10px;
+            }
+
+            p{
+                width: 352px;
+                height: 56px;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                color: map-get($colors,   "text-2-color" );
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+            button{
+                margin-top: 30px;
+                width: 102px;
+                height: 32px;
+                border: 1px solid map-get($colors, "addbutton" );
+                border-radius: 4px;
+                margin-left: 10px;
+
+            }
+         }
+        .media2{
+            margin-top: -390px;
+            width: 384px;
+            height: 416px;
+            background: map-get($colors,  "add-color" );
+            box-shadow: 0px 16px 32px rgba(118, 127, 154, 0.08);
+            border-radius: 8px;
+            margin-left: 450px;
+            img{
+              margin-left: 10px;
+               margin-top: 10px;
+            }
+
+            p{
+                width: 352px;
+                height: 56px;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                color: map-get($colors,   "text-2-color" );
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+            button{
+                margin-top: 30px;
+                width: 102px;
+                height: 32px;
+                border: 1px solid map-get($colors, "addbutton" );
+                border-radius: 4px;
+                margin-left: 10px;
+
+            }
+        }
+        .media3{
+            margin-top: -410px;
+            width: 384px;
+            height: 416px;
+            background: map-get($colors,  "add-color" );
+            box-shadow: 0px 16px 32px rgba(118, 127, 154, 0.08);
+            border-radius: 8px;
+            margin-left: 900px;
+            img{
+              margin-left: 10px;
+               margin-top: 10px;
+            }
+
+            p{
+                width: 352px;
+                height: 56px;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                color: map-get($colors,   "text-2-color" );
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+            button{
+                margin-top: 30px;
+                width: 102px;
+                height: 32px;
+                border: 1px solid map-get($colors, "addbutton" );
+                border-radius: 4px;
+                margin-left: 10px;
+
+            }
+        }
+         
+         }
+ }
